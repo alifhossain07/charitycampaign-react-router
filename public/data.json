@@ -1,0 +1,122 @@
+[
+  {
+    "picture": "/asset/images/food.png",
+    "title": "Feed a Family for a Week",
+    "category": "Food",
+    "category_bg": "#ffb74d",
+    "card_bg": "#ffe0b2", 
+    "text_button_bg": "#f57c00",
+    "description": "Provide a week’s worth of food supplies to a family in need.",
+    "price": "$80"
+  },
+  {
+    "picture": "/asset/images/clothing.png",
+    "title": "Winter Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#81c784",
+    "card_bg": "#a5d6a7", 
+    "text_button_bg": "#388e3c",
+    "description": "Donate warm clothes to families in need during the winter season.",
+    "price": "$75"
+  },
+  {
+    "picture": "/asset/images/education.png",
+    "title": "Books for Every Child",
+    "category": "Education",
+    "category_bg": "#64b5f6",
+    "card_bg": "#90caf9",
+    "text_button_bg": "#1e88e5",
+    "description": "Donate books and educational materials to children in rural areas.",
+    "price": "$50"
+  },
+  {
+    "picture": "/asset/images/health.png",
+    "title": "Emergency Health Fund",
+    "category": "Health",
+    "category_bg": "#e57373",
+    "card_bg": "#f6b0b0", 
+    "text_button_bg": "#c62828",
+    "description": "Support emergency medical treatment for underprivileged communities.",
+    "price": "$250"
+  },
+  {
+    "picture": "/asset/images/clothing.png",
+    "title": "Uniforms for School Children",
+    "category": "Clothing",
+    "category_bg": "#81c784",
+    "card_bg": "#a5d6a7", 
+    "text_button_bg": "#388e3c",
+    "description": "Provide school uniforms to children in low-income areas.",
+    "price": "$40"
+  },
+  {
+    "picture": "/asset/images/food.png",
+    "title": "Community Kitchen Support",
+    "category": "Food",
+    "category_bg": "#ffb74d",
+    "card_bg": "#ffe0b2", 
+    "text_button_bg": "#f57c00",
+    "description": "Help fund a community kitchen that serves hot meals to the homeless.",
+    "price": "$200"
+  },
+  {
+    "picture": "/asset/images/education.png",
+    "title": "Sponsor a Child's Education",
+    "category": "Education",
+    "category_bg": "#64b5f6",
+    "card_bg": "#90caf9", 
+    "text_button_bg": "#1e88e5",
+    "description": "Help sponsor a child's education for an entire year.",
+    "price": "$300"
+  },
+  {
+    "picture": "/asset/images/health.png",
+    "title": "Medical Aid for Children",
+    "category": "Health",
+    "category_bg": "#e57373",
+    "card_bg": "#f6b0b0", 
+    "text_button_bg": "#c62828",
+    "description": "Provide essential medical supplies and health checkups for children in need.",
+    "price": "$150"
+  },
+  {
+    "picture": "/asset/images/clothing.png",
+    "title": "Shoes for the Homeless",
+    "category": "Clothing",
+    "category_bg": "#81c784",
+    "card_bg": "#a5d6a7", 
+    "text_button_bg": "#388e3c",
+    "description": "Donate new shoes to homeless individuals to help them in their daily lives.",
+    "price": "$60"
+  },
+  {
+    "picture": "/asset/images/food.png",
+    "title": "Nutritional Kits for Children",
+    "category": "Food",
+    "category_bg": "#ffb74d",
+    "card_bg": "#ffe0b2", 
+    "text_button_bg": "#f57c00",
+    "description": "Donate nutritional kits to malnourished children in impoverished areas.",
+    "price": "$90"
+  },
+  {
+    "picture": "/asset/images/health.png",
+    "title": "Health Awareness Campaign",
+    "category": "Health",
+    "category_bg": "#e57373",
+    "card_bg": "#f6b0b0", 
+    "text_button_bg": "#c62828",
+    "description": "Fund campaigns to raise awareness about preventive health care.",
+    "price": "$100"
+  },
+  {
+    "picture": "/asset/images/education.png",
+    "title": "Build a School Library",
+    "category": "Education",
+    "category_bg": "#64b5f6",
+    "card_bg": "#90caf9", 
+    "text_button_bg": "#1e88e5",
+    "description": "Contribute to building a library in an underserved community school.",
+    "price": "$500"
+  }
+]
