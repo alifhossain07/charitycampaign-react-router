@@ -8,4 +8,30 @@
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-color: rgb(233, 235, 235);
+}
+.bg-charity {
+  background-image: url("/asset/images/charity.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Needed for positioning the pseudo-element */
+}
+
+.bg-charity::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.bg-charity > * {
+  position: relative;
+  z-index: 2; /* Ensure the content is above the overlay */
 }
