@@ -42,7 +42,7 @@ const Details = () => {
 
       
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto mt-36 md:mt-48'>
             <div className=''>
                 <div className='relative'>
                 <img className='w-full md:h-[600px]' src={picture} alt="" />
