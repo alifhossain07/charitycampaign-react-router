@@ -8,7 +8,7 @@ const AllCategory = ({allData}) => {
             <h1 className="text-center mt-20 font-bold text-3xl">Donation Categories</h1>
             <p className="text-center text-xl mb-10">Click to see Details</p>
 
-            <div className="grid gap-10 grid-cols-4 ">
+            <div className="flex flex-col md:grid gap-10 md:grid-cols-4 ">
             
             {
                 allData.map(data => <Data data={data}></Data> )
