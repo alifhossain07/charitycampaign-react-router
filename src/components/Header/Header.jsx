@@ -4,8 +4,9 @@ const Header = () => {
     const links = 
     <>
     <li className="text-base mb-2 mr-4"><NavLink  to="/" >Home</NavLink></li>
-    <li className="text-base mb-2 mr-4"><NavLink>Donation</NavLink></li> 
-    <li className="text-base mr-4"><NavLink>Statistics</NavLink></li>
+
+    <li className="text-base mb-2 mr-4"><NavLink to="/donation">Donation</NavLink></li> 
+    <li className="text-base mr-4"><NavLink to="/statistics">Statistics</NavLink></li>
 
 
     </>

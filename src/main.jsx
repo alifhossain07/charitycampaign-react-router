@@ -9,6 +9,8 @@ import './index.css';
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home';
 import Details from './components/Details/Details.jsx';
+import Donation from './components/Donation/Donation.jsx';
+import Statistics from './components/Statistics/Statistics.jsx';
 
 
 const router = createBrowserRouter([
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: "/details",
         element: <Details></Details>
+      },
+      {
+        path: "/donation",
+        element: <Donation></Donation>
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>
       }
     ],
   },
