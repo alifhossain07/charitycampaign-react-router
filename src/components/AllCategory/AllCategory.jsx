@@ -11,7 +11,7 @@ const AllCategory = ({allData}) => {
             <div className="flex flex-col md:grid gap-10 md:grid-cols-4 ">
             
             {
-                allData.map(data => <Data data={data}></Data> )
+                allData.map(data => <Data key={data.id}  data={data}></Data> )
             }
 
 

@@ -4,10 +4,14 @@ import AllCategory from "../AllCategory/AllCategory";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
+
     const allData = useLoaderData();
     const [filteredData, setFilteredData] = useState(allData); // State to store filtered data
 
+
+
     const handleSearch = (searchTerm) => {
+        
         if (searchTerm.trim() === "") {
             setFilteredData(allData); // If search term is empty, show all data
         } else {
@@ -17,6 +21,8 @@ const Home = () => {
             setFilteredData(filtered); // Filter data based on the search term
         }
     };
+
+
 
     return (
         <div>

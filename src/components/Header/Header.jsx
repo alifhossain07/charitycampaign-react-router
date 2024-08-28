@@ -4,18 +4,17 @@ const Header = () => {
     const links = 
     <>
     <li className="text-base mb-2 mr-4"><NavLink  to="/" >Home</NavLink></li>
-
     <li className="text-base mb-2 mr-4"><NavLink to="/donation">Donation</NavLink></li> 
     <li className="text-base mr-4"><NavLink to="/statistics">Statistics</NavLink></li>
-
-
     </>
+
     return (
         <div className="fixed top-0 left-0 w-full bg-base-100 z-50 shadow-2xl">
            <div className="navbar top bg-base-100">
-  <div className="navbar-start">
+          <div className="navbar-start">
 
   {/* Dropdown Option */}
+
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -37,14 +36,22 @@ const Header = () => {
         {links}
       </ul>
     </div>
+
+
+
     <div className=" ">
     <img className=" md:w-48 w-28" src="/asset/images/logo.png" alt="" />
-  </div>
+    </div>
+
     <a className=" font-bold text-lg md:text-2xl"><span className="text-red-600">Charity</span>Campaign</a>
-  </div>
+        </div>
+        
+  
   <div className="navbar-end md:hidden">
     <img className=" md:w-36 w-28" src="/asset/images/logo.png" alt="" />
   </div>
+
+
   <div className="navbar-end hidden  lg:flex">
     <ul className="mr-10 menu menu-horizontal px-1">
       {links}
