@@ -44,7 +44,7 @@ const Statistics = () => {
   }, []);
 
   return (
-    <div className='w-11/12 mx-auto'>
+    <div className='w-11/12 mx-auto md:mt-52 mt-36'>
       <h1 className='text-3xl font-bold text-center my-10'>Donation Statistics</h1>
       <ResponsiveContainer width="100%" height={400}>
         <PieChart>

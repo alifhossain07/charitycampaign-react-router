@@ -25,7 +25,7 @@ const Donation = () => {
     const donationsToShow = showAll ? donations : donations.slice(0, 4);
 
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="w-11/12 mt-36 md:mt-48 mx-auto">
             <h1 className='text-3xl font-bold text-red-500 mt-10 mb-20'>Your Donations</h1>
             {donations.length === 0 ? (
                 <p className="mt-4 text-xl">No donations made yet.</p>

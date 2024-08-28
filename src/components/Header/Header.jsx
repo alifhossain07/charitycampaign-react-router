@@ -11,8 +11,8 @@ const Header = () => {
 
     </>
     return (
-        <div>
-           <div className="navbar bg-base-100">
+        <div className="fixed top-0 left-0 w-full bg-base-100 z-50 shadow-2xl">
+           <div className="navbar top bg-base-100">
   <div className="navbar-start">
 
   {/* Dropdown Option */}
@@ -33,7 +33,7 @@ const Header = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+        className="menu menu-sm dropdown-content bg-white  rounded-box z-[1] mt-4 w-52 p-2 shadow ">
         {links}
       </ul>
     </div>
